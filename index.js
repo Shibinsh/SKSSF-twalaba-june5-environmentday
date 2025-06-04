@@ -22,8 +22,8 @@ function getImage() {
   newImg.id = "myGreatImage";
   // uploadedImageDiv.style.border = "4px solid #FCB514";
   // uploadedImageDiv.innerHTML
-  uploadedImageDiv.style.width = "300px";
-  uploadedImageDiv.style.height = "350px";
+  uploadedImageDiv.style.width = "600px";
+  uploadedImageDiv.style.height = "4580px";
   uploadedImageDiv.appendChild(newImg);
   myGreatImage = document.getElementById("myGreatImage");
 
@@ -135,7 +135,7 @@ function download() {
     .toDataURL("image/png")
     .replace("image/png", "image/octet-stream");
   download.setAttribute("href", image);
-  download.setAttribute("download", "ജൂൺ 5 പരിസ്ഥിതി ദിനം SKSSF ത്വലബ സ്റ്റേറ്റ് കമ്മിറ്റി.jpg");
+  download.setAttribute("download", "IHSAN-Union-june5-environmentday.jpg");
 }
 
 // download button disaplay
