@@ -22,8 +22,8 @@ function getImage() {
   newImg.id = "myGreatImage";
   // uploadedImageDiv.style.border = "4px solid #FCB514";
   // uploadedImageDiv.innerHTML
-  uploadedImageDiv.style.width = "600px";
-  uploadedImageDiv.style.height = "4580px";
+  uploadedImageDiv.style.width = "300px";
+  uploadedImageDiv.style.height = "350px";
   uploadedImageDiv.appendChild(newImg);
   myGreatImage = document.getElementById("myGreatImage");
 
